@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.time.Duration;
 
-public class C4 {
+public class C4_action {
     static WebDriver driver;
 
     @BeforeClass

@@ -3,7 +3,7 @@ package D6_JUnit;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class C4 {
+public class C4_action {
 
     @Test
     public void test01(int s1, int s2, int s3) {

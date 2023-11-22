@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import utilities.TestBase;
 
-public class C4_Iframe extends TestBase {
+public class C4_action_Iframe extends TestBase {
 
     @Test
     public void test01() throws InterruptedException {
