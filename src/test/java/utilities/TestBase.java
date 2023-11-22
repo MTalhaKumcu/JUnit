@@ -18,14 +18,16 @@ public class TestBase {
     protected WebDriver driver;
 
     @Before
-    public void setup(){
+    public void setup() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
+
     @After
-    public void teardown(){
-        driver.close();
+    public void teardown() {
+        //driver.close();
+        driver.quit();
     }
 }
